@@ -1,4 +1,7 @@
+import {BreakpointObserver, Breakpoints, BreakpointState} from '@angular/cdk/layout';
 import { Component } from '@angular/core';
+import {Observable} from 'rxjs';
+import {map, share, startWith, tap} from 'rxjs/operators';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +9,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.sass']
 })
 export class AppComponent {
-  title = 'vignesh';
+  isHandset$: Observable<BreakpointState> = this.breakpointObserver
+    .observe(Breakpoints.Handset)
+    .pipe(share());
+
+  constructor(private breakpointObserver: BreakpointObserver) {}
 }

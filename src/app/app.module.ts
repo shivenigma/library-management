@@ -1,3 +1,4 @@
+import {FlexModule} from '@angular/flex-layout';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -15,12 +16,17 @@ import { ListUserComponent } from './list-user/list-user.component';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
+import { LayoutModule } from '@angular/cdk/layout';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatIconModule } from '@angular/material/icon';
+import { MatListModule } from '@angular/material/list';
 
 @NgModule({
   declarations: [
     AppComponent,
     AddUserComponent,
-    ListUserComponent
+  ListUserComponent,
   ],
   imports: [
     BrowserModule,
@@ -34,7 +40,13 @@ import { MatSortModule } from '@angular/material/sort';
     ReactiveFormsModule,
     MatTableModule,
     MatPaginatorModule,
-    MatSortModule
+    MatSortModule,
+    LayoutModule,
+    MatToolbarModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatListModule,
+    FlexModule
   ],
   providers: [],
   bootstrap: [AppComponent]
