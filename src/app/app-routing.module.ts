@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import {AddUserComponent} from './add-user/add-user.component';
-import {ListUserComponent} from './list-user/list-user.component';
+import {AddBookComponent} from './books/add-book/add-book.component';
+import {ListUserComponent} from './users/list-user/list-user.component';
 
 const routes: Routes = [
   {path: '', pathMatch: 'full', component: ListUserComponent},
-  {path: 'user', pathMatch: 'full', component: AddUserComponent},
+  {path: 'books/new', pathMatch: 'full', component: AddBookComponent},
+  {path: 'books', pathMatch: 'full', component: AddBookComponent},
 ];
 
 @NgModule({

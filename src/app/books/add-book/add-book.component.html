@@ -1,0 +1,28 @@
+<form [formGroup]="addressForm" novalidate (ngSubmit)="onSubmit()">
+  <mat-card class="shipping-card">
+    <mat-card-header>
+      <mat-card-title>Book Information</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <div fxLayout="column">
+      <mat-form-field appearance="outline">
+        <mat-label>Book Title</mat-label>
+        <input matInput placeholder="Placeholder">
+        <mat-icon matSuffix>library_books</mat-icon>
+        <mat-hint>Hint</mat-hint>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Author</mat-label>
+        <mat-select>
+          <mat-option *ngFor="let author of authors" [value]="author.id">
+            {{author.lastName + ', ' + author.firstName}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      </div>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button color="primary" type="submit">Submit</button>
+    </mat-card-actions>
+  </mat-card>
+</form>

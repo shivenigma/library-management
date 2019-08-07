@@ -5,9 +5,24 @@
                [opened]="(isHandset$ | async) === false">
     <mat-toolbar>Library</mat-toolbar>
     <mat-nav-list>
-      <a mat-list-item href="#">Link 1</a>
-      <a mat-list-item href="#">Link 2</a>
-      <a mat-list-item href="#">Link 3</a>
+      <mat-accordion>
+
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+           Users
+          </mat-expansion-panel-header>
+          <a mat-list-item routerLink="/">Users</a>
+          <a mat-list-item>Add User</a>
+        </mat-expansion-panel>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            Books
+          </mat-expansion-panel-header>
+          <a mat-list-item routerLink="/books">Books</a>
+          <a mat-list-item routerLink="/books/new">Add Book</a>
+        </mat-expansion-panel>
+
+      </mat-accordion>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
