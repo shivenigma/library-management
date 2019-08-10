@@ -1,5 +1,8 @@
+import {HttpClient} from '@angular/common/http';
 import { Component } from '@angular/core';
 import { FormBuilder, Validators } from '@angular/forms';
+import {Observable} from 'rxjs';
+import {Author, Publication} from '../../../types';
 
 @Component({
   selector: 'app-add-book',
@@ -7,7 +10,7 @@ import { FormBuilder, Validators } from '@angular/forms';
   styleUrls: ['./add-book.component.css']
 })
 export class AddBookComponent {
-  addressForm = this.fb.group({
+  addBookForm = this.fb.group({
     company: null,
     firstName: [null, Validators.required],
     lastName: [null, Validators.required],
@@ -20,18 +23,14 @@ export class AddBookComponent {
     ],
     shipping: ['free', Validators.required]
   });
-  authors = [{
-    id: 1,
-    firstName: 'Jeyamohan',
-    lastName: 'Baguleyan',
-  }, {
-    id: 2,
-    firstName: 'Jeyamohan',
-    lastName: 'Baguleyan',
-  },
-  ];
+  authors$: Observable<Author[]>;
+  publications$: Observable<Publication[]>;
 
-  constructor(private fb: FormBuilder) {}
+  constructor(private fb: FormBuilder,
+              private http: HttpClient) {
+    this.authors$ = this.http.get<Author[]>('assets/authors.json');
+    this.publications$ = this.http.get<Publication[]>('assets/publications.json');
+  }
 
   onSubmit() {
     alert('Thanks!');

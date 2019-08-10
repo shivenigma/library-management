@@ -1,8 +1,9 @@
+import {HttpClientModule} from '@angular/common/http';
 import {FlexModule} from '@angular/flex-layout';
-import {MatExpansionModule} from '@angular/material';
+import {MatExpansionModule, MatNativeDateModule} from '@angular/material';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import {MatDatepickerModule} from '@angular/material/datepicker';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -27,7 +28,7 @@ import { MatListModule } from '@angular/material/list';
   declarations: [
     AppComponent,
     AddBookComponent,
-  ListUserComponent,
+    ListUserComponent,
   ],
   imports: [
     BrowserModule,
@@ -48,7 +49,10 @@ import { MatListModule } from '@angular/material/list';
     MatIconModule,
     MatListModule,
     MatExpansionModule,
-    FlexModule
+    MatDatepickerModule,
+    MatNativeDateModule,
+    FlexModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
