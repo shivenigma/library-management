@@ -24,6 +24,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
+import { AuthorsListComponent } from './authors/authors-list/authors-list.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { MatListModule } from '@angular/material/list';
     AddBookComponent,
     BooksListComponent,
     ListUserComponent,
+    AuthorsListComponent,
   ],
   imports: [
     BrowserModule,
