@@ -1,10 +1,126 @@
-[{"id":1,"publication":"O'Reilly-Lynch","email":"avaggs0@cocolog-nifty.com","logo":"https://robohash.org/quoassumendacumque.jpg?size=50x50&set=set1"},
-{"id":2,"publication":"Rowe, Hickle and Orn","email":"gsowley1@independent.co.uk","logo":"https://robohash.org/etnatusperferendis.bmp?size=50x50&set=set1"},
-{"id":3,"publication":"Labadie and Sons","email":"mhasney2@samsung.com","logo":"https://robohash.org/enimfacerequia.png?size=50x50&set=set1"},
-{"id":4,"publication":"Purdy LLC","email":"msnugg3@icq.com","logo":"https://robohash.org/cumprovidenteum.jpg?size=50x50&set=set1"},
-{"id":5,"publication":"Stracke Inc","email":"olapwood4@mapy.cz","logo":"https://robohash.org/omnispraesentiumreiciendis.jpg?size=50x50&set=set1"},
-{"id":6,"publication":"Stracke Group","email":"kbrouard5@sogou.com","logo":"https://robohash.org/dictanammollitia.png?size=50x50&set=set1"},
-{"id":7,"publication":"Abshire Inc","email":"pasquez6@biglobe.ne.jp","logo":"https://robohash.org/fugasitut.bmp?size=50x50&set=set1"},
-{"id":8,"publication":"Sawayn and Sons","email":"tmcgarahan7@storify.com","logo":"https://robohash.org/doloremquenisinumquam.bmp?size=50x50&set=set1"},
-{"id":9,"publication":"Shields, Cremin and Kris","email":"mikin8@squidoo.com","logo":"https://robohash.org/utconsequaturautem.bmp?size=50x50&set=set1"},
-{"id":10,"publication":"Terry-Reichel","email":"mpawsey9@toplist.cz","logo":"https://robohash.org/istequinihil.png?size=50x50&set=set1"}]
+[{
+  "id": 1,
+  "publication": "Ziemann and Sons",
+  "email": "jcammis0@privacy.gov.au",
+  "logo": "https://robohash.org/omnisvelnumquam.bmp?size=50x50&set=set1"
+}, {
+  "id": 2,
+  "publication": "Kuhn LLC",
+  "email": "hroches1@prnewswire.com",
+  "logo": "https://robohash.org/voluptatesipsaeos.bmp?size=50x50&set=set1"
+}, {
+  "id": 3,
+  "publication": "Ondricka and Sons",
+  "email": "ecollinette2@sohu.com",
+  "logo": "https://robohash.org/etaliquidet.png?size=50x50&set=set1"
+}, {
+  "id": 4,
+  "publication": "Rippin, Nitzsche and Ward",
+  "email": "mburless3@unblog.fr",
+  "logo": "https://robohash.org/magnamitaqueet.jpg?size=50x50&set=set1"
+}, {
+  "id": 5,
+  "publication": "Hodkiewicz LLC",
+  "email": "mwillmett4@networksolutions.com",
+  "logo": "https://robohash.org/cupiditatequiiste.png?size=50x50&set=set1"
+}, {
+  "id": 6,
+  "publication": "Reynolds Group",
+  "email": "jbrayshay5@mtv.com",
+  "logo": "https://robohash.org/numquamquamut.png?size=50x50&set=set1"
+}, {
+  "id": 7,
+  "publication": "Halvorson, Balistreri and Breitenberg",
+  "email": "mmcnalley6@bizjournals.com",
+  "logo": "https://robohash.org/sedquideserunt.jpg?size=50x50&set=set1"
+}, {
+  "id": 8,
+  "publication": "Jakubowski, Ullrich and Kihn",
+  "email": "wbandy7@eventbrite.com",
+  "logo": "https://robohash.org/nesciuntnamaut.jpg?size=50x50&set=set1"
+}, {
+  "id": 9,
+  "publication": "Quigley Group",
+  "email": "venriquez8@who.int",
+  "logo": "https://robohash.org/repudiandaeenimet.jpg?size=50x50&set=set1"
+}, {
+  "id": 10,
+  "publication": "Simonis and Sons",
+  "email": "ewilshire9@cdc.gov",
+  "logo": "https://robohash.org/inciduntmodiaut.png?size=50x50&set=set1"
+}, {
+  "id": 11,
+  "publication": "Friesen, Lockman and Wilkinson",
+  "email": "cslossa@jalbum.net",
+  "logo": "https://robohash.org/recusandaevelitnihil.png?size=50x50&set=set1"
+}, {
+  "id": 12,
+  "publication": "Dach, Hodkiewicz and Schaefer",
+  "email": "sanfossob@icio.us",
+  "logo": "https://robohash.org/estquisconsectetur.png?size=50x50&set=set1"
+}, {
+  "id": 13,
+  "publication": "Johnson-Reichert",
+  "email": "dkivitsc@imgur.com",
+  "logo": "https://robohash.org/facerecupiditatequia.jpg?size=50x50&set=set1"
+}, {
+  "id": 14,
+  "publication": "Stamm-Cremin",
+  "email": "jheakd@tumblr.com",
+  "logo": "https://robohash.org/cupiditatenullavero.jpg?size=50x50&set=set1"
+}, {
+  "id": 15,
+  "publication": "Kulas Inc",
+  "email": "cconichiee@tamu.edu",
+  "logo": "https://robohash.org/velitnihilquia.bmp?size=50x50&set=set1"
+}, {
+  "id": 16,
+  "publication": "Bednar, Borer and Yundt",
+  "email": "skennerf@washingtonpost.com",
+  "logo": "https://robohash.org/nisitemporaporro.png?size=50x50&set=set1"
+}, {
+  "id": 17,
+  "publication": "Balistreri LLC",
+  "email": "bpippardg@miitbeian.gov.cn",
+  "logo": "https://robohash.org/suscipitutaperiam.png?size=50x50&set=set1"
+}, {
+  "id": 18,
+  "publication": "Farrell, Little and Monahan",
+  "email": "bandresh@oracle.com",
+  "logo": "https://robohash.org/facereplaceatratione.png?size=50x50&set=set1"
+}, {
+  "id": 19,
+  "publication": "Braun-Schneider",
+  "email": "cclyburni@arizona.edu",
+  "logo": "https://robohash.org/eadebitiset.jpg?size=50x50&set=set1"
+}, {
+  "id": 20,
+  "publication": "Labadie, Abshire and Roberts",
+  "email": "tivanyutinj@si.edu",
+  "logo": "https://robohash.org/utquiaoccaecati.jpg?size=50x50&set=set1"
+}, {
+  "id": 21,
+  "publication": "Price, Heaney and King",
+  "email": "bmartinekk@mediafire.com",
+  "logo": "https://robohash.org/providentdignissimosharum.bmp?size=50x50&set=set1"
+}, {
+  "id": 22,
+  "publication": "O'Hara LLC",
+  "email": "hiwanickil@npr.org",
+  "logo": "https://robohash.org/etsedexplicabo.jpg?size=50x50&set=set1"
+}, {
+  "id": 23,
+  "publication": "Shields Group",
+  "email": "yrowstonm@businesswire.com",
+  "logo": "https://robohash.org/quihicvel.jpg?size=50x50&set=set1"
+}, {
+  "id": 24,
+  "publication": "Glover LLC",
+  "email": "amawdittn@webnode.com",
+  "logo": "https://robohash.org/beataevelitqui.jpg?size=50x50&set=set1"
+}, {
+  "id": 25,
+  "publication": "Macejkovic-Mann",
+  "email": "jwellando@edublogs.org",
+  "logo": "https://robohash.org/quaeconsequunturquaerat.bmp?size=50x50&set=set1"
+}]

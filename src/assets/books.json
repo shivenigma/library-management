@@ -1,0 +1,71 @@
+[{
+  "id": 1,
+  "title": "zero defect",
+  "author": 1,
+  "publication": 5,
+  "firstRelease": "2005-03-20T22:42:54Z",
+  "latestRelease": "2015-10-21T05:48:15Z"
+}, {
+  "id": 2,
+  "title": "background",
+  "author": 7,
+  "publication": 4,
+  "firstRelease": "2006-09-10T06:25:31Z",
+  "latestRelease": "2016-02-01T01:09:16Z"
+}, {
+  "id": 3,
+  "title": "leverage",
+  "author": 8,
+  "publication": 0,
+  "firstRelease": "2004-01-25T05:16:25Z",
+  "latestRelease": "2019-06-03T01:57:52Z"
+}, {
+  "id": 4,
+  "title": "user-facing",
+  "author": 2,
+  "publication": 4,
+  "firstRelease": "2005-10-26T02:00:11Z",
+  "latestRelease": "2016-05-27T09:26:37Z"
+}, {
+  "id": 5,
+  "title": "multi-tasking",
+  "author": 4,
+  "publication": 6,
+  "firstRelease": "2015-05-13T20:30:55Z",
+  "latestRelease": "2017-09-04T02:12:32Z"
+}, {
+  "id": 6,
+  "title": "workforce",
+  "author": 6,
+  "publication": 5,
+  "firstRelease": "2006-08-02T14:40:34Z",
+  "latestRelease": "2016-01-02T16:50:39Z"
+}, {
+  "id": 7,
+  "title": "neutral",
+  "author": 1,
+  "publication": 3,
+  "firstRelease": "2002-09-10T17:57:15Z",
+  "latestRelease": "2016-01-22T05:45:20Z"
+}, {
+  "id": 8,
+  "title": "De-engineered",
+  "author": 1,
+  "publication": 2,
+  "firstRelease": "2009-01-04T08:57:26Z",
+  "latestRelease": "2017-05-24T22:31:16Z"
+}, {
+  "id": 9,
+  "title": "Business-focused",
+  "author": 4,
+  "publication": 7,
+  "firstRelease": "2002-04-11T17:31:01Z",
+  "latestRelease": "2017-03-08T16:45:02Z"
+}, {
+  "id": 10,
+  "title": "transitional",
+  "author": 6,
+  "publication": 4,
+  "firstRelease": "2005-09-19T03:26:30Z",
+  "latestRelease": "2018-07-31T21:40:32Z"
+}]

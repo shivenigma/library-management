@@ -14,6 +14,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatCardModule } from '@angular/material/card';
 import { ReactiveFormsModule } from '@angular/forms';
+import {BooksListComponent} from './books/books-list/books-list.component';
 import { ListUserComponent } from './users/list-user/list-user.component';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
@@ -28,6 +29,7 @@ import { MatListModule } from '@angular/material/list';
   declarations: [
     AppComponent,
     AddBookComponent,
+    BooksListComponent,
     ListUserComponent,
   ],
   imports: [

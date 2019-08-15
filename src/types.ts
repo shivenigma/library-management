@@ -11,3 +11,11 @@ export interface Publication {
   email: string;
   logo: string;
 }
+export interface Book {
+  id: number;
+  title: string;
+  author: number;
+  publication: number;
+  firstRelease: Date;
+  latestRelease: Date;
+}
