@@ -12,12 +12,9 @@ import { BooksDataSource } from './books-data-source';
   styleUrls: ['./books-list.component.css']
 })
 export class BooksListComponent implements AfterViewInit, OnInit {
-  @ViewChild(MatPaginator, {static: false}) paginator: MatPaginator;
-  @ViewChild(MatSort, {static: false}) sort: MatSort;
   @ViewChild(MatTable, {static: false}) table: MatTable<Book>;
   dataSource: BooksDataSource;
 
-  /** Columns displayed in the table. Columns IDs can be added, removed, or reordered. */
   displayedColumns = ['id', 'title', 'author', 'publication', 'firstRelease', 'latestRelease'];
   constructor(private booksService: BooksService) {}
   ngOnInit() {
@@ -25,8 +22,6 @@ export class BooksListComponent implements AfterViewInit, OnInit {
   }
 
   ngAfterViewInit() {
-    this.dataSource.sort = this.sort;
-    this.dataSource.paginator = this.paginator;
     this.table.dataSource = this.dataSource;
   }
 }
